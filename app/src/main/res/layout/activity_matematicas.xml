@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/main"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#E7D955"
+  android:orientation="vertical"
+  tools:context=".MatematicasActivity">
+
+  <EditText
+    android:id="@+id/numero1"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:hint="numero1"
+    android:inputType="text"
+    android:textColor="#0F0E0E"
+    android:textColorHint="#0F0E0E"
+    android:textColorLink="#161414"
+    android:textSize="20sp" />
+
+  <EditText
+    android:id="@+id/numero2"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:hint="Numero 2"
+    android:inputType="text"
+    android:textColor="#0F0E0E"
+    android:textColorHint="#0F0E0E"
+    android:textColorLink="#1A1A18"
+    android:textSize="20sp" />
+
+  <RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="18dp"
+    android:backgroundTint="#0F0E0E">
+
+    <TextView
+      android:id="@+id/textView8"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="6dp"
+      android:text="@string/text_opciones"
+      android:textColor="#0F0E0E"
+      android:textSize="20sp" />
+
+    <RadioButton
+      android:id="@+id/btnsuma"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Suma"
+      android:textColor="#0B0B0B"
+      android:textSize="20sp" />
+
+    <RadioButton
+      android:id="@+id/btnresta"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Resta"
+      android:textColor="#0B0B0B"
+      android:textSize="20sp" />
+
+    <RadioButton
+      android:id="@+id/btnmultiplicacion"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Multiplicación"
+      android:textColor="#0B0B0B"
+      android:textSize="20sp" />
+
+    <RadioButton
+      android:id="@+id/btndivision"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="División"
+      android:textColor="#0B0B0B"
+      android:textSize="20sp" />
+
+    <RadioButton
+      android:id="@+id/btnmodulo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Modulo"
+      android:textColor="#0B0B0B"
+      android:textSize="20sp" />
+
+    <RadioButton
+      android:id="@+id/btnpotencia"
+      android:layout_width="match_parent"
+      android:layout_height="63dp"
+      android:text="Potencia"
+      android:textColor="#0B0B0B"
+      android:textSize="20sp" />
+
+  </RadioGroup>
+
+  <TextView
+    android:id="@+id/resultado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:text="Resultado"
+    android:textColor="#0F0E0E"
+    android:textSize="35sp" />
+
+</LinearLayout>
